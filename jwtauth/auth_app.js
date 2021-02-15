@@ -4,10 +4,12 @@ require('dotenv').config()
 //dependencies
 const express = require('express')
 const jwt = require('jsonwebtoken')
+const cors = require('cors')
 
 //express config
 const app = express()
 app.use(express.json())
+app.use(cors())
 
 //refresh tokens array(replaces a database)
 let refreshTokens = []
