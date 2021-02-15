@@ -9,7 +9,7 @@ const jwt = require('jsonwebtoken')
 const app = express()
 app.use(express.json())
 
-//posts array
+//posts array(replaces a database)
 const posts = [
     {
         username: "Tom",
@@ -23,18 +23,6 @@ const posts = [
 
 app.get('/posts', authenticateToken, (req, res) => {
     res.json(posts.filter(post => post.username === req.user.name))
-})
-
-//login post
-app.post('/login', (req, res) => {
-
-    //get requested username
-    const username = req.body.username
-    const user = { name: username }
-
-    //sign the json web token
-    const accessToken = jwt.sign(user, process.env.ACCESS_TOKEN_SECRET)
-    res.json({ accessToken: accessToken })
 })
 
 //authToken function
