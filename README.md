@@ -40,7 +40,7 @@ AUTH_PORT=4000<br />
 ACCESS_TOKEN_SECRET=239c81bf99f89a8e19f8b29c82e189f08a90<br />
 REFRESH_TOKEN_SECRET=29a77f2bf34d29c82a39f089e890b90c8d29a8<br />
 ### Start server
-One difference to a normal part is, that there are 2 servers runnig one for the api requests and one only used for api calls. To use them run ```node app.js``` and ```npm auth_app.js``` or ```npm run devStart``` and ```npm run devStartAuth```. I would recommend to run these server with normal node, because when you save one server sometimes the other one crashes(in my case).
+One difference to a normal part is, that there are 2 servers runnig one for the api requests and one only used for api calls. To use them run ```node app.js``` and ```npm auth_app.js``` or ```npm run devStart``` and ```npm run devStartAuth```. I would recommend to run these server with normal node, because when you're using nodemon when you save one server sometimes the other one crashes(in my case).
 ## FAQ
 What is the **NodeJSTemplates**?
 >**NodeJSTemplates** is a small libary of many common nodeJS projects, that i've bundled to one Repository.
