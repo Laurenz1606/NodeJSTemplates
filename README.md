@@ -45,11 +45,35 @@ REFRESH_TOKEN_SECRET=29a77f2bf34d29c82a39f089e890b90c8d29a8<br />
 ### Start server
 One difference to a normal part is, that there are 2 servers runnig one for the api requests and one only used for api calls. To use them run ```node app.js``` and ```npm auth_app.js``` or ```npm run devStart``` and ```npm run devStartAuth```. I would recommend to run these server with normal node, because when you're using nodemon when you save one server sometimes the other one crashes(in my case).
 ### Usage
-How to requst the api. Replace the [TOKEN] and the [REFRESH] with the access token and the refresh token.<br /><br />
+How to requst the api. Replace the [TOKEN] and the [REFRESH] with the access token and the refresh token.<br />
 ```
-//log a user out(delete an the refresh token)
-GET http://localhost:3000/posts
+//request the api
+GET http://[your_auth_server_ip]:[your_app_server_port]/posts
 Authorization: Bearer [TOKEN]
+
+//log a user out(delete the refresh token)
+DELETE http://[your_auth_server_ip]:[your_auth_server_port]/logout
+Content-Type: application/json
+
+{
+    "token": "[REFRESH]"
+}
+
+//refresh an expired access token
+POST http://[your_auth_server_ip]:[your_auth_server_port]/token
+Content-Type: application/json
+
+{
+    "token": "[REFRESH]"
+}
+
+//get an acces token for a specific user from the username
+POST http://[your_auth_server_ip]:[your_auth_server_port]/login
+Content-Type: application/json
+
+{
+    "username": "Tom"
+}
 ```
 ## FAQ
 What is the **NodeJSTemplates**?
