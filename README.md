@@ -16,7 +16,7 @@ First of all, you can use the code every where you want, im thankful if you ment
 7. You can either run your code with ```node app.js```, or if you want to restart your server every time you changed something in a file run ```npm run devStart```
 ## template
 The template folder is a clean nodeJS project with express, dotenv and nodemon ready. All my projects are based on this template.
-## jwtauth (in progress)
+## jwtauth
 This project focus on the backend of a jwt auth server. The tutorial link is: https://www.youtube.com/watch?v=mbsmsi7l3r4&ab_channel=WebDevSimplified The code is slightliy modified, but in the core works the same. To use this Part follow the steps on "how to use **NodeJSTemplates**". <br />
 It will install some dependencies:
 * Express
@@ -44,6 +44,13 @@ ACCESS_TOKEN_SECRET=239c81bf99f89a8e19f8b29c82e189f08a90<br />
 REFRESH_TOKEN_SECRET=29a77f2bf34d29c82a39f089e890b90c8d29a8<br />
 ### Start server
 One difference to a normal part is, that there are 2 servers runnig one for the api requests and one only used for api calls. To use them run ```node app.js``` and ```npm auth_app.js``` or ```npm run devStart``` and ```npm run devStartAuth```. I would recommend to run these server with normal node, because when you're using nodemon when you save one server sometimes the other one crashes(in my case).
+### Usage
+How to requst the api. Replace the [TOKEN] and the [REFRESH] with the access token and the refresh token.<br /><br />
+```
+//log a user out(delete an the refresh token)
+GET http://localhost:3000/posts
+Authorization: Bearer [TOKEN]
+```
 ## FAQ
 What is the **NodeJSTemplates**?
 >**NodeJSTemplates** is a small libary of many common nodeJS projects, that i've bundled to one Repository.
