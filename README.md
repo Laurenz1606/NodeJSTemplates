@@ -36,7 +36,7 @@ Your .env should look something like:<br /><br />
 PORT=3000<br />
 ACCESS_TOKEN_SECRET=239c81bf99f89a8e19f8b29c82e189f08a90<br />
 REFRESH_TOKEN_SECRET=29a77f2bf34d29c82a39f089e890b90c8d29a8<br />
-## Start server
+**Start server**
 One difference to a normal part is, that there are 2 servers runnig one for the api requests and one only used for api calls. To use them run ```node app.js``` and ```npm authApp.js``` or ```npm run devStart``` and ```npm run devStartAuth```
 ## FAQ
 What is the **NodeJSTemplates**?
