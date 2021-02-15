@@ -26,12 +26,12 @@ This project focus on the backend of a jwt auth server. The code is slightliy mo
 <!-- -->
 ### Environment variables
 PORT: <br />
-The "PORT" variable will set the port of your application  <br />
+The "PORT" variable will set the port of your application  <br /><br />
 ACCESS_TOKEN_SECRET: <br />
-The "ACCESS_TOKEN_SECRET" will set our jwt acces-token-secret to generate a secure key first run ```node``` and then run ```require('crypto').randomBytes(64).toString('hex')``` and copy the given string of random chars to your ACCESS_TOKEN_SECRET variable.<br />
+The "ACCESS_TOKEN_SECRET" will set our jwt acces-token-secret to generate a secure key first run ```node``` and then run ```require('crypto').randomBytes(64).toString('hex')``` and copy the given string of random chars to your ACCESS_TOKEN_SECRET variable.<br /><br />
 REFRESH_TOKEN_SECRET:<br />
-Run the same 2 commands (```node```, ```require('crypto').randomBytes(64).toString('hex')```) again and set the REFRESH_TOKEN_SECRET to the given value. For security reasons dont use the same token, as on ACCESS_TOKEN_SECRET. <br />
-Your .env should look something like:<br />
+Run the same 2 commands (```node```, ```require('crypto').randomBytes(64).toString('hex')```) again and set the REFRESH_TOKEN_SECRET to the given value. For security reasons dont use the same token, as on ACCESS_TOKEN_SECRET. <br /><br />
+Your .env should look something like:<br /><br />
 PORT=3000<br />
 ACCESS_TOKEN_SECRET=239c81bf99f89a8e19f8b29c82e189f08a90<br />
 REFRESH_TOKEN_SECRET=29a77f2bf34d29c82a39f089e890b90c8d29a8<br />
