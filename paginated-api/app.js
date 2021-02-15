@@ -10,4 +10,5 @@ const app = express()
 app.use(express.json())
 app.use(cors())
 
+//listen to the port
 app.listen(process.env.PORT, () => console.log(`Part running on Port ${process.env.PORT}`))
