@@ -17,7 +17,8 @@ First of all, you can use the code every where you want, im thankful if you ment
 ## template
 The template folder is a clean nodeJS project with express, dotenv and nodemon ready. All my projects are based on this template.
 ## jwtauth (in progress)
-This project focus on the backend of a jwt auth server. The code is slightliy modified, but in the core works the same. To use this Part follow the steps on "how to use **NodeJSTemplates**". It will install some dependencies:
+This project focus on the backend of a jwt auth server. The code is slightliy modified, but in the core works the same. To use this Part follow the steps on "how to use **NodeJSTemplates**". <br />
+It will install some dependencies:
 * Express
 * jsonwebtoken
 * dotenv
