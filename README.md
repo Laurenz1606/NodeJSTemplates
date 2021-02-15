@@ -30,6 +30,8 @@ PORT: <br />
 The "PORT" variable will set the port of your application  <br /><br />
 AUTH_PORT: <br />
 The "AUTH_PORT" variable will set the port of your authentication application  <br /><br />
+EXPIRESIN: <br />
+Set "EXPIRESIN" to the amount of seconds, that need to pass, that a jwt token gets invalid(i would recomend something like 900 which are 15 minutes).
 ACCESS_TOKEN_SECRET: <br />
 The "ACCESS_TOKEN_SECRET" will set our jwt acces-token-secret to generate a secure key first run ```node``` and then run ```require('crypto').randomBytes(64).toString('hex')``` and copy the given string of random chars to your ACCESS_TOKEN_SECRET variable.<br /><br />
 REFRESH_TOKEN_SECRET:<br />
@@ -37,6 +39,7 @@ Run the same 2 commands (```node```, ```require('crypto').randomBytes(64).toStri
 Your .env should look something like:<br /><br />
 PORT=3000<br />
 AUTH_PORT=4000<br />
+EXPIRESIN=900<br />
 ACCESS_TOKEN_SECRET=239c81bf99f89a8e19f8b29c82e189f08a90<br />
 REFRESH_TOKEN_SECRET=29a77f2bf34d29c82a39f089e890b90c8d29a8<br />
 ### Start server
