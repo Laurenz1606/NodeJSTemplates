@@ -4,7 +4,7 @@
 2. [template](https://github.com/Laurenz1606/NodeJSTemplates/blob/main/README.md#template)
 3. [jwtauth](https://github.com/Laurenz1606/NodeJSTemplates/blob/main/README.md#jwtauth)
 4. [paginated-api](https://github.com/Laurenz1606/NodeJSTemplates/blob/main/README.md#paginated-api)
-5. [FAQ](how to use **NodeJSTemplates**](https://github.com/Laurenz1606/NodeJSTemplates/blob/main/README.md#how-to-use-nodejstemplates)
+5. [FAQ](https://github.com/Laurenz1606/NodeJSTemplates/blob/main/README.md#how-to-use-nodejstemplates)
 ## how to use **NodeJSTemplates**
 Many of this code is form the tutorials from Kyle aka. Wev Deb Simplified<br /> Youtube: https://www.youtube.com/channel/UCFbNIlppjAuEX4znoulh0Cw GitHub: https://github.com/WebDevSimplified  
 First of all, you can use the code every where you want, im thankful if you mention Kyle or this Repository in your project, but you dont have to. I'll work on constantly adding more Parts to it.
