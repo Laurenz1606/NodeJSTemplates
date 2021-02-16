@@ -77,7 +77,7 @@ Content-Type: application/json
 }
 ```
 ## paginated-api
-This project is an api which paginates the data on multiple sites which are dynamicly generated based on the ```limit``` query parameter.
+This project is an api which paginates the data on multiple sites which are dynamicly generated based on the ```limit``` query parameter. Like other projects its a slightly modified version of the paginated api from Web Dev Simplified. His tutorial is following [Create A Paginated API With Node.js - Complete Tutorial](https://www.youtube.com/watch?v=ZX3qt0UWifc&t=52s&ab_channel=WebDevSimplified)
 ## FAQ
 What is the **NodeJSTemplates**?
 >**NodeJSTemplates** is a small libary of many common nodeJS projects, that i've bundled to one Repository.
