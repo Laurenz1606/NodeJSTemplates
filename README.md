@@ -18,7 +18,8 @@ First of all, you can use the code every where you want, im thankful if you ment
 ## template
 The template folder is a clean nodeJS project with express, dotenv and nodemon ready. All my projects are based on this template.
 ## jwtauth
-This project focus on the backend of a jwt auth server. The tutorial link is: [https://www.youtube.com/watch?v=mbsmsi7l3r4&ab_channel=WebDevSimplified](https://www.youtube.com/watch?v=mbsmsi7l3r4&ab_channel=WebDevSimplified) The code is slightliy modified, but in the core works the same. To use this Part follow the steps on "[how to use **NodeJSTemplates**](https://github.com/Laurenz1606/NodeJSTemplates/blob/main/README.md#how-to-use-nodejstemplates)". <br />
+This project focus on the backend of a jwt auth server. The tutorial link is: [JWT Authentication Tutorial - Node.js
+](https://www.youtube.com/watch?v=mbsmsi7l3r4&ab_channel=WebDevSimplified) The code is slightliy modified, but in the core works the same. To use this Part follow the steps on "[how to use **NodeJSTemplates**](https://github.com/Laurenz1606/NodeJSTemplates/blob/main/README.md#how-to-use-nodejstemplates)". <br />
 It will install some dependencies:
 * Express
 * jsonwebtoken
