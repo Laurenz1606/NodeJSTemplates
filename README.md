@@ -78,7 +78,16 @@ Content-Type: application/json
 }
 ```
 ## paginated-api
-This project is an api which paginates the data on multiple sites which are dynamicly generated based on the ```limit``` query parameter. Like other projects its a slightly modified version of the paginated api from Web Dev Simplified. His tutorial is following [Create A Paginated API With Node.js - Complete Tutorial](https://www.youtube.com/watch?v=ZX3qt0UWifc&t=52s&ab_channel=WebDevSimplified). To use this part you can simply run the commands on "[how to use **NodeJSTemplates**](https://github.com/Laurenz1606/NodeJSTemplates/blob/main/README.md#how-to-use-nodejstemplates)".
+This project is an api which paginates the data on multiple sites which are dynamicly generated based on the ```limit``` query parameter. Like other projects its a slightly modified version of the paginated api from Web Dev Simplified. His tutorial is following [Create A Paginated API With Node.js - Complete Tutorial](https://www.youtube.com/watch?v=ZX3qt0UWifc&t=52s&ab_channel=WebDevSimplified). To use this part you can simply run the commands on "[how to use **NodeJSTemplates**](https://github.com/Laurenz1606/NodeJSTemplates/blob/main/README.md#how-to-use-nodejstemplates)".<br />
+It will install some dependencies:
+* Express
+* dotenv
+* nodemon
+* cors
+<!-- -->
+### Environment variables
+PORT: <br />
+The "PORT" variable will set the port of your application  <br /><br />
 ## FAQ
 What is the **NodeJSTemplates**?
 >**NodeJSTemplates** is a small libary of many common nodeJS projects, that i've bundled to one Repository.
