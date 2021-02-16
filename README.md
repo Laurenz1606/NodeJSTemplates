@@ -47,10 +47,10 @@ REFRESH_TOKEN_SECRET=29a77f2bf34d29c82a39f089e890b90c8d29a8<br />
 ### Start server
 One difference to a normal part is, that there are 2 servers runnig one for the api requests and one only used for api calls. To use them run ```node app.js``` and ```npm auth_app.js``` or ```npm run devStart``` and ```npm run devStartAuth```. I would recommend to run these server with normal node, because when you're using nodemon when you save one server sometimes the other one crashes(in my case).
 ### Usage
-How to requst the api. Replace the [TOKEN] and the [REFRESH] with the access token and the refresh token.<br />
+Replace the [TOKEN] and the [REFRESH] with the access token and the refresh token. Replace [your_auth_server_ip] with the ip of your auth server, [your_app_server_ip] with the ip of your api. Do the same thing for the ports.<br />
 ```
 //request the api
-GET http://[your_auth_server_ip]:[your_app_server_port]/posts
+GET http://[your_app_server_ip]:[your_app_server_port]/posts
 Authorization: Bearer [TOKEN]
 
 //log a user out(delete the refresh token)
@@ -90,6 +90,16 @@ PORT: <br />
 The "PORT" variable will set the port of your application  <br /><br />
 Your .env should look something like:<br /><br />
 PORT=3000<br />
+### Usage
+Replace [your_server_ip] with the ip of your server and [port] with the value of your port environment variable. Replace [limit] with the results you want on one page and [page] to your requested page
+```
+//request the user api
+GET http://[your_server_ip]:[port]/users?page=[page]&limit=[limit]
+
+//request the post api
+GET http://[your_server_ip]:[port]/posts?page=[page]&limit=[limit]
+```
+At the end of Kyles video, he's connecting his api to a database, in my case i only want to focus on the pagination of the api, if you want to use it with a database, maybe try it yourself(small hint: a good dependency to use is mongoose with mongodb) or watch kyles video to the api.
 ## FAQ
 What is the **NodeJSTemplates**?
 >**NodeJSTemplates** is a small libary of many common nodeJS projects, that i've bundled to one Repository.
