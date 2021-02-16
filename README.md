@@ -77,7 +77,7 @@ Content-Type: application/json
 }
 ```
 ## paginated-api
-This project
+This project is an api which paginates the data on multiple sites which are dynamicly generated based on a size length variable[limit]
 ## FAQ
 What is the **NodeJSTemplates**?
 >**NodeJSTemplates** is a small libary of many common nodeJS projects, that i've bundled to one Repository.
