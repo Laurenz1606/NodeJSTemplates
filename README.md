@@ -3,7 +3,8 @@
 1. how to use **NodeJSTemplates**
 2. template
 3. jwtauth
-4. FAQ
+4. paginated-api
+5. FAQ
 ## how to use **NodeJSTemplates**
 Many of this code is form the tutorials from Kyle aka. Wev Deb Simplified<br /> Youtube: https://www.youtube.com/channel/UCFbNIlppjAuEX4znoulh0Cw GitHub: https://github.com/WebDevSimplified  
 First of all, you can use the code every where you want, im thankful if you mention Kyle or this Repository in your project, but you dont have to. I'll work on constantly adding more Parts to it.
@@ -75,6 +76,8 @@ Content-Type: application/json
     "username": "Tom"
 }
 ```
+## paginated-api
+This project
 ## FAQ
 What is the **NodeJSTemplates**?
 >**NodeJSTemplates** is a small libary of many common nodeJS projects, that i've bundled to one Repository.
