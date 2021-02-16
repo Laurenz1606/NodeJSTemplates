@@ -3,8 +3,8 @@
 1. [how to use **NodeJSTemplates**](https://github.com/Laurenz1606/NodeJSTemplates#how-to-use-nodejstemplates)
 2. [template](https://github.com/Laurenz1606/NodeJSTemplates#template)
 3. [jwtauth](https://github.com/Laurenz1606/NodeJSTemplates#jwtauth)
-4. [paginated-api](https://github.com/Laurenz1606#paginated-api)
-5. [FAQ](https://github.com/Laurenz1606#faq)
+4. [paginated-api](https://github.com/Laurenz1606/NodeJSTemplates#paginated-api)
+5. [FAQ](https://github.com/Laurenz1606/NodeJSTemplates#faq)
 ## how to use **NodeJSTemplates**
 Many of this code is form the tutorials from Kyle aka. Wev Deb Simplified<br /> 
 [His Youtube](https://www.youtube.com/channel/UCFbNIlppjAuEX4znoulh0Cw) <br />
