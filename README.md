@@ -1,7 +1,7 @@
 # NodeJSTemplates
 ## Content
-1. how to use **NodeJSTemplates**
-2. template
+1. [how to use **NodeJSTemplates**](https://github.com/Laurenz1606/NodeJSTemplates/blob/main/README.md#how-to-use-nodejstemplates)
+2. [template]()
 3. [jwtauth](https://github.com/Laurenz1606/NodeJSTemplates/blob/main/README.md#jwtauth)
 4. paginated-api
 5. FAQ
