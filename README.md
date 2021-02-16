@@ -1,10 +1,10 @@
 # NodeJSTemplates
 ## Content
-1. [how to use **NodeJSTemplates**](https://github.com/Laurenz1606/NodeJSTemplates/blob/main/README.md#how-to-use-nodejstemplates)
-2. [template](https://github.com/Laurenz1606/NodeJSTemplates/blob/main/README.md#template)
-3. [jwtauth](https://github.com/Laurenz1606/NodeJSTemplates/blob/main/README.md#jwtauth)
-4. [paginated-api](https://github.com/Laurenz1606/NodeJSTemplates/blob/main/README.md#paginated-api)
-5. [FAQ](https://github.com/Laurenz1606/NodeJSTemplates/blob/main/README.md#faq)
+1. [how to use **NodeJSTemplates**](https://github.com/Laurenz1606/NodeJSTemplates#how-to-use-nodejstemplates)
+2. [template](https://github.com/Laurenz1606/NodeJSTemplates#template)
+3. [jwtauth](https://github.com/Laurenz1606/NodeJSTemplates#jwtauth)
+4. [paginated-api](https://github.com/Laurenz1606#paginated-api)
+5. [FAQ](https://github.com/Laurenz1606#faq)
 ## how to use **NodeJSTemplates**
 Many of this code is form the tutorials from Kyle aka. Wev Deb Simplified<br /> 
 [His Youtube](https://www.youtube.com/channel/UCFbNIlppjAuEX4znoulh0Cw) <br />
@@ -21,7 +21,7 @@ First of all, you can use the code every where you want, im thankful if you ment
 The template folder is a clean nodeJS project with express, dotenv and nodemon ready. All my projects are based on this template.
 ## jwtauth
 This project focus on the backend of a jwt auth server. The tutorial link is: [JWT Authentication Tutorial - Node.js
-](https://www.youtube.com/watch?v=mbsmsi7l3r4&ab_channel=WebDevSimplified) The code is slightliy modified, but in the core works the same. To use this Part follow the steps on "[how to use **NodeJSTemplates**](https://github.com/Laurenz1606/NodeJSTemplates/blob/main/README.md#how-to-use-nodejstemplates)". <br />
+](https://www.youtube.com/watch?v=mbsmsi7l3r4&ab_channel=WebDevSimplified) The code is slightliy modified, but in the core works the same. To use this Part follow the steps on "[how to use **NodeJSTemplates**](https://github.com/Laurenz1606/NodeJSTemplates#how-to-use-nodejstemplates)". <br />
 It will install some dependencies:
 * Express
 * jsonwebtoken
@@ -80,7 +80,7 @@ Content-Type: application/json
 }
 ```
 ## paginated-api
-This project is an api which paginates the data on multiple sites which are dynamicly generated based on the ```limit``` query parameter. Like other projects its a slightly modified version of the paginated api from Web Dev Simplified. His tutorial is following [Create A Paginated API With Node.js - Complete Tutorial](https://www.youtube.com/watch?v=ZX3qt0UWifc&t=52s&ab_channel=WebDevSimplified). To use this part you can simply run the commands on "[how to use **NodeJSTemplates**](https://github.com/Laurenz1606/NodeJSTemplates/blob/main/README.md#how-to-use-nodejstemplates)".<br />
+This project is an api which paginates the data on multiple sites which are dynamicly generated based on the ```limit``` query parameter. Like other projects its a slightly modified version of the paginated api from Web Dev Simplified. His tutorial is following [Create A Paginated API With Node.js - Complete Tutorial](https://www.youtube.com/watch?v=ZX3qt0UWifc&t=52s&ab_channel=WebDevSimplified). To use this part you can simply run the commands on "[how to use **NodeJSTemplates**](https://github.com/Laurenz1606/NodeJSTemplates#how-to-use-nodejstemplates)".<br />
 It will install some dependencies:
 * Express
 * dotenv
