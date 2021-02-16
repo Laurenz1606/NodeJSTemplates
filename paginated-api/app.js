@@ -10,7 +10,7 @@ const app = express()
 app.use(express.json())
 app.use(cors())
 
-//create users array (replace a database)
+//create posts array (replace a database)
 const posts = [
     { id: 1, name: 'Post 1' },
     { id: 2, name: 'Post 2' },
@@ -32,7 +32,7 @@ const posts = [
     { id: 18, name: 'Post 18' },
 ]
 
-//create posts array (replace a database)
+//create users array (replace a database)
 const users = [
     { id: 1, name: 'User 1' },
     { id: 2, name: 'User 2' },
