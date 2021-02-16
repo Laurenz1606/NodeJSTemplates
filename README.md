@@ -88,6 +88,8 @@ It will install some dependencies:
 ### Environment variables
 PORT: <br />
 The "PORT" variable will set the port of your application  <br /><br />
+Your .env should look something like:<br /><br />
+PORT=3000<br />
 ## FAQ
 What is the **NodeJSTemplates**?
 >**NodeJSTemplates** is a small libary of many common nodeJS projects, that i've bundled to one Repository.
