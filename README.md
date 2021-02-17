@@ -123,6 +123,7 @@ PORT=3000<br />
 DATABASE_URL=mongodb://[your_database_server_ip]:[your_database_server_port]/[your_database]<br />
 ### Usage
 The usage of this project is pretty easy, to start your server simply run one of the commands from "[how to use **NodeJSTemplates**](https://github.com/Laurenz1606/NodeJSTemplates#how-to-use-nodejstemplates)". In your browser simply go to [your_server_ip]:[your_server_port] and test it. Since this project also include a frontend, you could try something like make a delete button or implement a login system, so that a user can only see his shortened urls.
+## URL shortener(api version)
 ## FAQ
 What is the **NodeJSTemplates**?
 >**NodeJSTemplates** is a small libary of many common nodeJS projects, that i've bundled to one Repository.
