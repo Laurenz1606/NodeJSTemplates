@@ -6,7 +6,7 @@
 4. [paginated-api](https://github.com/Laurenz1606/NodeJSTemplates#paginated-api)
 5. [URL shortener(ejs version)](https://github.com/Laurenz1606/NodeJSTemplates#url-shortenerejs-version)
 6. [URL shortener(api version)](https://github.com/Laurenz1606/NodeJSTemplates#url-shortenerapi-version)
-7. [Session based login(temp)]()
+7. [Session based login(temp)](https://github.com/Laurenz1606/NodeJSTemplates#session-based-logintemp)
 0. [FAQ](https://github.com/Laurenz1606/NodeJSTemplates#faq)
 ## how to use **NodeJSTemplates**
 Many of this code is form the tutorials from Kyle aka. Wev Deb Simplified<br />
@@ -209,7 +209,7 @@ Your .env should look something like:<br /><br />
 PORT=3000<br />
 SESSION_SECRET=702bbcd97d48e7bf5e68057bb54b3c3c5a97d7e6d44996b5e27367670fd1a26d4c5abf9c3bedebe33319cea0bc9f4df5556298d70bec82411c6594d38dc06b44<br />
 ### Usage
-This application also includes a fronted with the templating language ejs. So you can simply go to your browser and go to  [your_server_ip]:[your_server_port]
+This application also includes a fronted with the templating language ejs. So you can simply start your server, go to your browser and go to [your_server_ip]:[your_server_port]. The "UI" i've included is pretty basic html, but feel free to remake it.
 ## FAQ
 What is the **NodeJSTemplates**?
 >**NodeJSTemplates** is a small libary of many common nodeJS projects, that i've bundled to one Repository.
