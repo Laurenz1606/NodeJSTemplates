@@ -1,0 +1,15 @@
+GET http://161.97.180.102:3000/all
+
+###
+
+POST http://161.97.180.102:3000/create
+Content-Type: application/json
+
+{
+    "fullUrl": "https://mk-bs.de"
+}
+
+###
+
+
+GET http://161.97.180.102:3000/info/0SXCI9P6fv
