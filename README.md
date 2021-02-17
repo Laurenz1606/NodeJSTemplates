@@ -5,7 +5,8 @@
 3. [jwtauth](https://github.com/Laurenz1606/NodeJSTemplates#jwtauth)
 4. [paginated-api](https://github.com/Laurenz1606/NodeJSTemplates#paginated-api)
 5. [URL shortener(ejs version)](https://github.com/Laurenz1606/NodeJSTemplates#url-shortenerejs-version)
-6. [FAQ](https://github.com/Laurenz1606/NodeJSTemplates#faq)
+6. [URL shortener(api version)](https://github.com/Laurenz1606/NodeJSTemplates#url-shortenerapi-version)
+7. [FAQ](https://github.com/Laurenz1606/NodeJSTemplates#faq)
 ## how to use **NodeJSTemplates**
 Many of this code is form the tutorials from Kyle aka. Wev Deb Simplified<br />
 [His Youtube](https://www.youtube.com/channel/UCFbNIlppjAuEX4znoulh0Cw) <br />
