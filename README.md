@@ -7,6 +7,7 @@
 5. [URL shortener(ejs version)](https://github.com/Laurenz1606/NodeJSTemplates#url-shortenerejs-version)
 6. [URL shortener(api version)](https://github.com/Laurenz1606/NodeJSTemplates#url-shortenerapi-version)
 7. [Session based login(temp)](https://github.com/Laurenz1606/NodeJSTemplates#session-based-logintemp)
+8. [Session based login(database)](https://github.com/Laurenz1606/NodeJSTemplates#session-based-logindatabase)
 0. [FAQ](https://github.com/Laurenz1606/NodeJSTemplates#faq)
 ## how to use **NodeJSTemplates**
 Many of this code is form the tutorials from Kyle aka. Wev Deb Simplified<br />
