@@ -199,6 +199,7 @@ Dependencies that will be installed:
 * passport
 * passport-local
 * nodemon
+* bcrypt
 <!-- -->
 ### Environment variables
 PORT: <br />
@@ -208,6 +209,35 @@ The "SESSION_SECRET" variable will set the session secret of your session applic
 Your .env should look something like:<br /><br />
 PORT=3000<br />
 SESSION_SECRET=702bbcd97d48e7bf5e68057bb54b3c3c5a97d7e6d44996b5e27367670fd1a26d4c5abf9c3bedebe33319cea0bc9f4df5556298d70bec82411c6594d38dc06b44<br />
+### Usage
+This application also includes a fronted with the templating language ejs. So you can simply start your server, go to your browser and go to [your_server_ip]:[your_server_port]. The "UI" i've included is pretty basic html, but feel free to remake it.
+## Session based login(database)
+This Session based login system is the recommend one for your project. You need to have mongoDB installed on your device, because thats the database type we're going to use. If you want to get an explination on how the login is working check ot this video from Kyle: [Node.js Passport Login System Tutorial](https://www.youtube.com/watch?v=-RCnNyD0L-s&ab_channel=WebDevSimplified). I've modifed his code, so it can be hooked up to a database. To use this project, run the commands from "[how to use **NodeJSTemplates**](https://github.com/Laurenz1606/NodeJSTemplates#how-to-use-nodejstemplates)"<br />
+Dependencies that will be installed:
+* dotenv
+* express
+* express-flash
+* express-session
+* ejs
+* method-override
+* passport
+* passport-local
+* nodemon
+* bcrypt
+* mongoose
+<!-- -->
+### Environment variables
+PORT: <br />
+The "PORT" variable will set the port of your application  <br /><br />
+DATABASE_URL: <br />
+The "DATABASE_URL" variable will set the url of your mongo database.<br /><br />
+Your .env should look something like:<br /><br />
+SESSION_SECRET: <br />
+The "SESSION_SECRET" variable will set the session secret of your session application. I've done the same thing as with the jwtauth project. I generated a random string of chars with following commands: ```node```, ```require('crypto').randomBytes(64).toString('hex')```.<br /><br />
+Your .env should look something like:<br /><br />
+PORT=3000<br />
+DATABASE_URL=mongodb://localhost/session-login-database
+SESSION_SECRET=5614e9887d1de94f1e562dc94957f1837e33c609095c030478480a04ddd4051b94e346560c37609042ebd339f939926db2ea85093a2593a78b0c7a79b86ede99<br />
 ### Usage
 This application also includes a fronted with the templating language ejs. So you can simply start your server, go to your browser and go to [your_server_ip]:[your_server_port]. The "UI" i've included is pretty basic html, but feel free to remake it.
 ## FAQ
