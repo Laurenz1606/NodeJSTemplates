@@ -34,6 +34,7 @@ app.post('/shortUrls', async (req, res) => {
     res.redirect('/')
 })
 
+//make the redirection
 app.get('/:url', async (req, res) => {
 
     //find the url by the req params 
