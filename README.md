@@ -92,7 +92,7 @@ It will install some dependencies:
 PORT: <br />
 The "PORT" variable will set the port of your application  <br /><br />
 Your .env should look something like:<br /><br />
-```PORT=3000```<br />
+PORT=3000<br />
 ### Usage
 Replace [your_server_ip] with the ip of your server and [port] with the value of your port environment variable. Replace [limit] with the results you want on one page and [page] to your requested page
 ```
