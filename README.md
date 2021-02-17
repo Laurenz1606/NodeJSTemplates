@@ -173,7 +173,7 @@ Content-Type: application/json
 ```
 2. As a response you will get something like: <br />
 ```
-//the response
+//the response is
 {
   "clicks": 0,
   "_id": "602d024e99a82b0b426e27ae",
