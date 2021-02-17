@@ -169,7 +169,8 @@ Content-Type: application/json
 
 {
     "fullUrl": "https://example.com"
-}```
+}
+```
 2. As a response you will get something like: 
 ```
 //the response
