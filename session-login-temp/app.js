@@ -68,17 +68,24 @@ app.post('/register', checkNotAuthenticated, (req, res) => {
 
     //hash their password
     const hashedPassword = bcrypt.hashSync(req.body.password, 10)
+    const user = users.find(currUser => currUser.email === req.body.email)
+    if(user !== undefined) {
+        req.flash('error', 'Email alredy taken')
+        res.redirect('/register')
+    }
+    else {
 
-    //append them to the user array
-    users.push({
-        id: Date.now().toString(),
-        name: req.body.name,
-        email: req.body.email,
-        password: hashedPassword
-    })
-
-    //redirect them to the login
-    res.redirect('/login')
+        //append them to the user array
+        users.push({
+            id: Date.now().toString(),
+            name: req.body.name,
+            email: req.body.email,
+            password: hashedPassword
+        })
+    
+        //redirect them to the login
+        res.redirect('/login')
+    }
 })
 
 //delete the session
