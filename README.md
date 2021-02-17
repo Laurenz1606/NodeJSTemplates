@@ -231,7 +231,6 @@ PORT: <br />
 The "PORT" variable will set the port of your application  <br /><br />
 DATABASE_URL: <br />
 The "DATABASE_URL" variable will set the url of your mongo database.<br /><br />
-Your .env should look something like:<br /><br />
 SESSION_SECRET: <br />
 The "SESSION_SECRET" variable will set the session secret of your session application. I've done the same thing as with the jwtauth project. I generated a random string of chars with following commands: ```node```, ```require('crypto').randomBytes(64).toString('hex')```.<br /><br />
 Your .env should look something like:<br /><br />
