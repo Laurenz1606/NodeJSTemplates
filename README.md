@@ -162,8 +162,8 @@ Content-Type: application/json
 The response from the POST request contains a "short" variable, when you go to http://[your_server_ip]:[your_server_port]/[short] you will be redirected.
 ## Example
 Here im going to give an example, because its pretty complicated to understand, when you want to shorten a url follow these steps(as an example i am using https://example.com).
-1. ```
-//shorten the url example.com
+1. <br />
+```//shorten the url example.com
 POST http://161.97.180.102:3000/create
 Content-Type: application/json
 
@@ -171,7 +171,7 @@ Content-Type: application/json
     "fullUrl": "https://example.com"
 }
 ```
-2. As a response you will get something like: 
+2. As a response you will get something like: <br />
 ```
 //the response
 {
