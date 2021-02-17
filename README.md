@@ -160,7 +160,7 @@ Content-Type: application/json
 }
 ```
 The response from the POST request contains a "short" variable, when you go to http://[your_server_ip]:[your_server_port]/[short] you will be redirected.
-## Example
+### Example
 Here im going to give an example, because its pretty complicated to understand, when you want to shorten a url follow these steps(as an example i am using https://example.com).
 1. Make a post request to your server with your url:<br />
 ```
