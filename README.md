@@ -26,7 +26,7 @@ The template folder is a clean nodeJS project with express, dotenv and nodemon r
 This project focus on the backend of a jwt auth server. The tutorial link is: [JWT Authentication Tutorial - Node.js
 ](https://www.youtube.com/watch?v=mbsmsi7l3r4&ab_channel=WebDevSimplified) The code is slightliy modified, but in the core works the same. To use this Part follow the steps on "[how to use **NodeJSTemplates**](https://github.com/Laurenz1606/NodeJSTemplates#how-to-use-nodejstemplates)". <br />
 It will install some dependencies:
-* Express
+* express
 * jsonwebtoken
 * dotenv
 * nodemon
@@ -85,7 +85,7 @@ Content-Type: application/json
 ## paginated-api
 This project is an api which paginates the data on multiple sites which are dynamicly generated based on the ```limit``` query parameter. Like other projects its a slightly modified version of the paginated api from Web Dev Simplified. His tutorial is following [Create A Paginated API With Node.js - Complete Tutorial](https://www.youtube.com/watch?v=ZX3qt0UWifc&t=52s&ab_channel=WebDevSimplified). To use this part you can simply run the commands on "[how to use **NodeJSTemplates**](https://github.com/Laurenz1606/NodeJSTemplates#how-to-use-nodejstemplates)".<br />
 It will install some dependencies:
-* Express
+* express
 * dotenv
 * nodemon
 * cors
@@ -106,9 +106,9 @@ GET http://[your_server_ip]:[port]/posts?page=[page]&limit=[limit]
 ```
 At the end of Kyles video, he's connecting his api to a database, in my case i only want to focus on the pagination of the api, if you want to use it with a database, maybe try it yourself(small hint: a good dependency to use is mongoose with mongodb) or watch kyles video to the api.
 ## URL shortener(ejs version)
-This project is an URL-shortener, not like many other projects, it also got a frontend view with the templating language ejs. The code comes form another video from kyle: [How To Build A URL Shortener With Node.js, Express, and MongoDB](https://www.youtube.com/watch?v=SLpUKAGnm-g&t=972s&ab_channel=WebDevSimplified). To use this part run the commands on "[how to use **NodeJSTemplates**](https://github.com/Laurenz1606/NodeJSTemplates#how-to-use-nodejstemplates)", but you need to have mongoDB installed on your device, because, we'll need a database to store the shortened urls.<br />
+This project is an URL-shortener, not like many other projects, it also got a frontend view with the templating language ejs. The code comes form another video from kyle: [How To Build A URL Shortener With Node.js, express, and MongoDB](https://www.youtube.com/watch?v=SLpUKAGnm-g&t=972s&ab_channel=WebDevSimplified). To use this part run the commands on "[how to use **NodeJSTemplates**](https://github.com/Laurenz1606/NodeJSTemplates#how-to-use-nodejstemplates)", but you need to have mongoDB installed on your device, because, we'll need a database to store the shortened urls.<br />
 Dependencies that will be installed:
-* Express
+* express
 * dotenv
 * ejs
 * mongoose
@@ -128,7 +128,7 @@ The usage of this project is pretty easy, to start your server simply run one of
 ## URL shortener(api version)
 This project is pretty similar to the ejs version of the url shortener, the redirects are completly the same, but there is no user interface to add a url. The code form this is also inspired by Kyle, to see an explination of it, check out the video linked at the ejs version. To use this part run the commands on "[how to use **NodeJSTemplates**](https://github.com/Laurenz1606/NodeJSTemplates#how-to-use-nodejstemplates)", but you need to have mongoDB installed on your device, because, we'll need a database to store the shortened urls.<br />
 Dependencies that will be installed:
-* Express
+* express
 * dotenv
 * mongoose
 * shortid
@@ -188,8 +188,28 @@ Content-Type: application/json
 http://161.97.180.102:3000/PPZZ3kYeX
 ```
 ## Session based login(temp)
-Before i go into to much detail, i DON'T recommend using this as your login system. This projects stores all data in an array on the server, which is very bad, because when you restart your server once all your user data will be gone. I also have built a version where i hooked the login system up to a database, which i recommend to use. This Project is a like many others a modified version of on of the videos from Kyle. The original version from him is this [Node.js Passport Login System Tutorial
-](https://www.youtube.com/watch?v=-RCnNyD0L-s&ab_channel=WebDevSimplified).
+Before i go into too much detail, i DON'T recommend using this as your login system. This projects stores all data in an array on the server, which is very bad, because when you restart your server once all your user data will be gone. I also have built a version where i hooked the login system up to a database, which i recommend to use. This Project is a like many others a modified version of on of the videos from Kyle. The original version from him is this [Node.js Passport Login System Tutorial](https://www.youtube.com/watch?v=-RCnNyD0L-s&ab_channel=WebDevSimplified). To use this project as always, run the commands from "[how to use **NodeJSTemplates**](https://github.com/Laurenz1606/NodeJSTemplates#how-to-use-nodejstemplates)"<br />
+Dependencies that will be installed:
+* dotenv
+* express
+* express-flash
+* express-session
+* ejs
+* method-override
+* passport
+* passport-local
+* nodemon
+<!-- -->
+### Environment variables
+PORT: <br />
+The "PORT" variable will set the port of your application  <br /><br />
+SESSION_SECRET: <br />
+The "SESSION_SECRET" variable will set the session secret of your session application. I've done the same thing as with the jwtauth project. I generated a random string of chars with following commands: ```node```, ```require('crypto').randomBytes(64).toString('hex')```.<br /><br />
+Your .env should look something like:<br /><br />
+PORT=3000<br />
+SESSION_SECRET=702bbcd97d48e7bf5e68057bb54b3c3c5a97d7e6d44996b5e27367670fd1a26d4c5abf9c3bedebe33319cea0bc9f4df5556298d70bec82411c6594d38dc06b44<br />
+### Usage
+This application also includes a fronted with the templating language ejs. So you can simply go to your browser and go to  [your_server_ip]:[your_server_port]
 ## FAQ
 What is the **NodeJSTemplates**?
 >**NodeJSTemplates** is a small libary of many common nodeJS projects, that i've bundled to one Repository.
