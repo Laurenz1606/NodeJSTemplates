@@ -47,8 +47,8 @@ Your .env should look something like:<br /><br />
 PORT=3000<br />
 AUTH_PORT=4000<br />
 EXPIRESIN=900<br />
-ACCESS_TOKEN_SECRET=239c81bf99f89a8e19f8b29c82e189f08a90<br />
-REFRESH_TOKEN_SECRET=29a77f2bf34d29c82a39f089e890b90c8d29a8<br />
+ACCESS_TOKEN_SECRET=19bae9feacf4d4c276e6f452176e0d158dce7d836200251401d330ce36c15804c40f6f66a5753741d0306b1cbbac96bd171c85ada6a32e42f1f79533901e28b9<br />
+REFRESH_TOKEN_SECRET=721cc759dada3f9c1f3321bebb22ef0e58d573fe88bf766519a7cff4ca86b0dd807366a3c8eb38248b6c79a19d1f92ee2886e36bdba689d1f2bc443b13368f43<br />
 ### Start server
 One difference to a normal part is, that there are 2 servers runnig one for the api requests and one only used for api calls. To use them run ```node app.js``` and ```npm auth_app.js``` or ```npm run devStart``` and ```npm run devStartAuth```. I would recommend to run these server with normal node, because when you're using nodemon when you save one server sometimes the other one crashes(in my case).
 ### Usage
