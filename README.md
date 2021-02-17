@@ -105,7 +105,25 @@ GET http://[your_server_ip]:[port]/posts?page=[page]&limit=[limit]
 At the end of Kyles video, he's connecting his api to a database, in my case i only want to focus on the pagination of the api, if you want to use it with a database, maybe try it yourself(small hint: a good dependency to use is mongoose with mongodb) or watch kyles video to the api.
 ## URL shortener(ejs version)
 This project is an URL-shortener, not like many other projects, it also got a frontend view with the templating language ejs. The code comes form another video from kyle: [How To Build A URL Shortener With Node.js, Express, and MongoDB
-](https://www.youtube.com/watch?v=SLpUKAGnm-g&t=972s&ab_channel=WebDevSimplified)
+](https://www.youtube.com/watch?v=SLpUKAGnm-g&t=972s&ab_channel=WebDevSimplified). To use this part run the commands on "[how to use **NodeJSTemplates**](https://github.com/Laurenz1606/NodeJSTemplates#how-to-use-nodejstemplates)", but you need to have mongoDB installed on your device, because, we'll need a database to store the shortened urls.<br />
+Dependencies that will be installed:
+* Express
+* dotenv
+* ejs
+* mongoose
+* shortid
+* nodemon
+<!-- -->
+### Environment variables
+PORT: <br />
+The "PORT" variable will set the port of your application  <br /><br />
+DATABASE_URL: <br />
+The "DATABASE_URL" variable will set the url of your mongo database.<br /><br />
+Your .env should look something like:<br /><br />
+PORT=3000<br />
+DATABASE_URL=mongodb://[your_database_server_ip]:[your_database_server_port]/[your_database]<br />
+### Usage
+The usage of this project is pretty easy, to start your server simply run one of the commands from "[how to use **NodeJSTemplates**](https://github.com/Laurenz1606/NodeJSTemplates#how-to-use-nodejstemplates)". In your browser simply go to [your_server_ip]:[your_server_port] and test it. Since this project also include a frontend, you could try something like make a delete button or implement a login system, so that a user can only see his shortened urls.
 ## FAQ
 What is the **NodeJSTemplates**?
 >**NodeJSTemplates** is a small libary of many common nodeJS projects, that i've bundled to one Repository.
