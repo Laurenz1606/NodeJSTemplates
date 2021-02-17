@@ -104,8 +104,7 @@ GET http://[your_server_ip]:[port]/posts?page=[page]&limit=[limit]
 ```
 At the end of Kyles video, he's connecting his api to a database, in my case i only want to focus on the pagination of the api, if you want to use it with a database, maybe try it yourself(small hint: a good dependency to use is mongoose with mongodb) or watch kyles video to the api.
 ## URL shortener(ejs version)
-This project is an URL-shortener, not like many other projects, it also got a frontend view with the templating language ejs. The code comes form another video from kyle: [How To Build A URL Shortener With Node.js, Express, and MongoDB
-](https://www.youtube.com/watch?v=SLpUKAGnm-g&t=972s&ab_channel=WebDevSimplified). To use this part run the commands on "[how to use **NodeJSTemplates**](https://github.com/Laurenz1606/NodeJSTemplates#how-to-use-nodejstemplates)", but you need to have mongoDB installed on your device, because, we'll need a database to store the shortened urls.<br />
+This project is an URL-shortener, not like many other projects, it also got a frontend view with the templating language ejs. The code comes form another video from kyle: [How To Build A URL Shortener With Node.js, Express, and MongoDB](https://www.youtube.com/watch?v=SLpUKAGnm-g&t=972s&ab_channel=WebDevSimplified). To use this part run the commands on "[how to use **NodeJSTemplates**](https://github.com/Laurenz1606/NodeJSTemplates#how-to-use-nodejstemplates)", but you need to have mongoDB installed on your device, because, we'll need a database to store the shortened urls.<br />
 Dependencies that will be installed:
 * Express
 * dotenv
