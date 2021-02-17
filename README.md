@@ -121,10 +121,27 @@ DATABASE_URL: <br />
 The "DATABASE_URL" variable will set the url of your mongo database.<br /><br />
 Your .env should look something like:<br /><br />
 PORT=3000<br />
-DATABASE_URL=mongodb://[your_database_server_ip]:[your_database_server_port]/[your_database]<br />
+DATABASE_URL=mongodb://localhost:27017/url-shortener-ejs<br />
 ### Usage
 The usage of this project is pretty easy, to start your server simply run one of the commands from "[how to use **NodeJSTemplates**](https://github.com/Laurenz1606/NodeJSTemplates#how-to-use-nodejstemplates)". In your browser simply go to [your_server_ip]:[your_server_port] and test it. Since this project also include a frontend, you could try something like make a delete button or implement a login system, so that a user can only see his shortened urls.
 ## URL shortener(api version)
+This project is pretty similar to the ejs version of the url shortener, the redirects are completly the same, but there is no user interface to add a url. The code form this is also inspired by Kyle, to see an explination of it, check out the video linked at the ejs version. To use this part run the commands on "[how to use **NodeJSTemplates**](https://github.com/Laurenz1606/NodeJSTemplates#how-to-use-nodejstemplates)", but you need to have mongoDB installed on your device, because, we'll need a database to store the shortened urls.<br />
+Dependencies that will be installed:
+* Express
+* dotenv
+* mongoose
+* shortid
+* nodemon
+* cros
+<!-- -->
+### Environment variables
+PORT: <br />
+The "PORT" variable will set the port of your application  <br /><br />
+DATABASE_URL: <br />
+The "DATABASE_URL" variable will set the url of your mongo database.<br /><br />
+Your .env should look something like:<br /><br />
+PORT=3000<br />
+DATABASE_URL=mongodb://localhost:27017/url-shortener-api<br />
 ## FAQ
 What is the **NodeJSTemplates**?
 >**NodeJSTemplates** is a small libary of many common nodeJS projects, that i've bundled to one Repository.
