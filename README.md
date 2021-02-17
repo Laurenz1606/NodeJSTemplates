@@ -142,6 +142,24 @@ The "DATABASE_URL" variable will set the url of your mongo database.<br /><br />
 Your .env should look something like:<br /><br />
 PORT=3000<br />
 DATABASE_URL=mongodb://localhost:27017/url-shortener-api<br />
+### Usage
+The usage of this project is a little diffrent to the ejs version, you don't have an interface to add a url or view all urls. You have to get or post something via an api. To Start your server simply run the commands on "[how to use **NodeJSTemplates**](https://github.com/Laurenz1606/NodeJSTemplates#how-to-use-nodejstemplates)".<br />
+```
+//get all shorted urls
+GET http://161.97.180.102:3000/all
+
+//get infos of a specific url, replace [URL] with the shortedUrl you want the infos
+GET http://161.97.180.102:3000/info/[URL]
+
+//create a new shortedUrl, replace [URL] with the url you want to redirect
+POST http://161.97.180.102:3000/create
+Content-Type: application/json
+
+{
+    "fullUrl": "[URL]"
+}
+```
+The response from the POST request contains a "short" variable, when you go to http://[your_server_ip]:[your_server_port]/[short] you will be redirected.
 ## FAQ
 What is the **NodeJSTemplates**?
 >**NodeJSTemplates** is a small libary of many common nodeJS projects, that i've bundled to one Repository.
