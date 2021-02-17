@@ -162,8 +162,8 @@ Content-Type: application/json
 The response from the POST request contains a "short" variable, when you go to http://[your_server_ip]:[your_server_port]/[short] you will be redirected.
 ## Example
 Here im going to give an example, because its pretty complicated to understand, when you want to shorten a url follow these steps(as an example i am using https://example.com).
-1. <br />
-```//shorten the url example.com
+1. Make a post request to your server with your url:<br />
+```
 POST http://161.97.180.102:3000/create
 Content-Type: application/json
 
@@ -182,6 +182,7 @@ Content-Type: application/json
   "__v": 0
 }
 ```
+3. Now you can use
 ## FAQ
 What is the **NodeJSTemplates**?
 >**NodeJSTemplates** is a small libary of many common nodeJS projects, that i've bundled to one Repository.
