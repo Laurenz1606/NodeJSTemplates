@@ -6,6 +6,7 @@
 4. [paginated-api](https://github.com/Laurenz1606/NodeJSTemplates#paginated-api)
 5. [URL shortener(ejs version)](https://github.com/Laurenz1606/NodeJSTemplates#url-shortenerejs-version)
 6. [URL shortener(api version)](https://github.com/Laurenz1606/NodeJSTemplates#url-shortenerapi-version)
+7. [Session based login(temp)]()
 0. [FAQ](https://github.com/Laurenz1606/NodeJSTemplates#faq)
 ## how to use **NodeJSTemplates**
 Many of this code is form the tutorials from Kyle aka. Wev Deb Simplified<br />
@@ -186,6 +187,9 @@ Content-Type: application/json
 ```
 http://161.97.180.102:3000/PPZZ3kYeX
 ```
+## Session based login(temp)
+Before i go into to much detail, i DON'T recommend using this as your login system. This projects stores all data in an array on the server, which is very bad, because when you restart your server once all your user data will be gone. I also have built a version where i hooked the login system up to a database, which i recommend to use. This Project is a like many others a modified version of on of the videos from Kyle. The original version from him is this [Node.js Passport Login System Tutorial
+](https://www.youtube.com/watch?v=-RCnNyD0L-s&ab_channel=WebDevSimplified).
 ## FAQ
 What is the **NodeJSTemplates**?
 >**NodeJSTemplates** is a small libary of many common nodeJS projects, that i've bundled to one Repository.
