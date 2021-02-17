@@ -31,7 +31,8 @@ app.get('/all', async (req, res) => {
 
 //create a shortened url
 app.post('/create', async (req, res) => {
-    console.log(req.body)
+
+    //make the database entrie and send it to the user
     const newShort = await ShortUrl.create({ full: req.body.fullUrl })
     res.json(newShort)
 })
