@@ -4,7 +4,8 @@
 2. [template](https://github.com/Laurenz1606/NodeJSTemplates#template)
 3. [jwtauth](https://github.com/Laurenz1606/NodeJSTemplates#jwtauth)
 4. [paginated-api](https://github.com/Laurenz1606/NodeJSTemplates#paginated-api)
-5. [FAQ](https://github.com/Laurenz1606/NodeJSTemplates#faq)
+5. [url-shortener]()
+6. [FAQ](https://github.com/Laurenz1606/NodeJSTemplates#faq)
 ## how to use **NodeJSTemplates**
 Many of this code is form the tutorials from Kyle aka. Wev Deb Simplified<br /> 
 [His Youtube](https://www.youtube.com/channel/UCFbNIlppjAuEX4znoulh0Cw) <br />
@@ -102,6 +103,7 @@ GET http://[your_server_ip]:[port]/users?page=[page]&limit=[limit]
 GET http://[your_server_ip]:[port]/posts?page=[page]&limit=[limit]
 ```
 At the end of Kyles video, he's connecting his api to a database, in my case i only want to focus on the pagination of the api, if you want to use it with a database, maybe try it yourself(small hint: a good dependency to use is mongoose with mongodb) or watch kyles video to the api.
+## URL shortener(ejs version)
 ## FAQ
 What is the **NodeJSTemplates**?
 >**NodeJSTemplates** is a small libary of many common nodeJS projects, that i've bundled to one Repository.
