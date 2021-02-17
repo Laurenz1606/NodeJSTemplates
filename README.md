@@ -14,7 +14,7 @@ Many of this code is form the tutorials from Kyle aka. Wev Deb Simplified<br />
 [His Youtube](https://www.youtube.com/channel/UCFbNIlppjAuEX4znoulh0Cw) <br />
 [His GitHub](https://github.com/WebDevSimplified)<br />
 First of all, you can use the code every where you want, im thankful if you mention Kyle or this Repository in your project, but you dont have to. I'll work on constantly adding more Parts to it.
-1. Check that you have nodeJS on your machine.
+1. Check that you have nodeJS and npm on your machine.
 2. Clone this repo.
 3. (Optional) Delete every folder, execpt the part you want to use.
 4. In the folder of your choosen part run ```npm install``` to install the needed dependencies.
