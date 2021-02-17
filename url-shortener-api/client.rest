@@ -6,7 +6,7 @@ POST http://161.97.180.102:3000/create
 Content-Type: application/json
 
 {
-    "fullUrl": "https://mk-bs.de"
+    "fullUrl": "https://example.com"
 }
 
 ###
