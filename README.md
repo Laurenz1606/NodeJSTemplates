@@ -183,7 +183,9 @@ Content-Type: application/json
 }
 ```
 3. Your shorted url is:
-```http://161.97.180.102:3000/PPZZ3kYeX```
+```
+http://161.97.180.102:3000/PPZZ3kYeX
+```
 ## FAQ
 What is the **NodeJSTemplates**?
 >**NodeJSTemplates** is a small libary of many common nodeJS projects, that i've bundled to one Repository.
