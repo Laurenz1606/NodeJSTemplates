@@ -148,13 +148,13 @@ DATABASE_URL=mongodb://localhost:27017/url-shortener-api<br />
 The usage of this project is a little diffrent to the ejs version, you don't have an interface to add a url or view all urls. You have to get or post something via an api. To Start your server simply run the commands on "[how to use **NodeJSTemplates**](https://github.com/Laurenz1606/NodeJSTemplates#how-to-use-nodejstemplates)".<br />
 ```
 //get all shorted urls
-GET http://161.97.180.102:3000/all
+GET http://[YOUR_IP_OR_FQDN]/all
 
 //get infos of a specific url, replace [URL] with the shortedUrl you want the infos
-GET http://161.97.180.102:3000/info/[URL]
+GET http://[YOUR_IP_OR_FQDN]/info/[URL]
 
 //create a new shortedUrl, replace [URL] with the url you want to redirect
-POST http://161.97.180.102:3000/create
+POST http://[YOUR_IP_OR_FQDN]/create
 Content-Type: application/json
 
 {
@@ -166,7 +166,7 @@ The response from the POST request contains a "short" variable, when you go to h
 Here im going to give an example, because its pretty complicated to understand, when you want to shorten a url follow these steps(as an example i am using https://example.com).
 1. Make a post request to your server with your url:<br />
 ```
-POST http://161.97.180.102:3000/create
+POST http://[YOUR_IP_OR_FQDN]/create
 Content-Type: application/json
 
 {
@@ -186,7 +186,7 @@ Content-Type: application/json
 ```
 3. Your shorted url is:
 ```
-http://161.97.180.102:3000/PPZZ3kYeX
+http://[YOUR_IP_OR_FQDN]/PPZZ3kYeX
 ```
 ## Session based login(temp)
 Before i go into too much detail, i DON'T recommend using this as your login system. This projects stores all data in an array on the server, which is very bad, because when you restart your server once all your user data will be gone. I also have built a version where i hooked the login system up to a database, which i recommend to use. This Project is a like many others a modified version of on of the videos from Kyle. The original version from him is this [Node.js Passport Login System Tutorial](https://www.youtube.com/watch?v=-RCnNyD0L-s&ab_channel=WebDevSimplified). To use this project as always, run the commands from "[how to use **NodeJSTemplates**](https://github.com/Laurenz1606/NodeJSTemplates#how-to-use-nodejstemplates)"<br />
